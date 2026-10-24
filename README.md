@@ -39,4 +39,4 @@ Neste projeto, pude exercitar na prática conceitos fundamentais de desenvolvime
 
 ---
 
-<p align="center">Desenvolvido por Higor Campos durante os treinamentos da DIO."Curso Formação CSS Web Developer".</p>
+<p align="center">Desenvolvido por Higor de Campos durante os treinamentos da DIO."Curso Formação CSS Web Developer".</p>
