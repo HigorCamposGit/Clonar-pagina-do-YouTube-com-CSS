@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso CSS Completo: Aula 01 - O que é CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="header-left">
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <div class="logo">
+                <i class="fa-brands fa-youtube logo-icon"></i>
+                <span class="logo-text">YouTube <small>BR</small></span>
+            </div>
+        </div>
+
+        <div class="header-center">
+            <div class="search-box">
+                <input type="text" value="curso de CSS">
+                <button class="search-clear"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="mic-btn"><i class="fa-solid fa-microphone"></i></button>
+        </div>
+
+        <div class="header-right">
+            <button class="create-btn"><i class="fa-solid fa-plus"></i> Criar</button>
+            <i class="fa-regular fa-bell icon-action"></i>
+            <div class="user-avatar">H</div>
+        </div>
+    </header>
+
+    <!-- conteúdo da página do vídeo -->
+    <div class="watch-container">
+        
+      
+        <div class="primary-column">
+            <!-- Player estático -->
+            <div class="video-player">
+                <div class="video-mockup-content">
+                    <span class="cc-badge">Olá seja muito bem-vindo</span>
+                </div>
+            </div>
+
+            <!-- Título do vídeo -->
+            <h1 class="video-title">Curso CSS Completo: Aula 01 - O que é CSS e CSS Inline</h1>
+
+            <!-- Informações do Canal -->
+            <div class="video-details-bar">
+                <div class="channel-info">
+                    <div class="channel-avatar-img">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="channel-meta">
+                        <span class="channel-name">Programação Web <i class="fa-solid fa-circle-check verified"></i></span>
+                        <span class="sub-count">119 mil inscritos</span>
+                    </div>
+                </div>
+                
+                <div class="channel-actions">
+                    <button class="btn-member">Seja membro</button>
+                    <button class="btn-subscribe">Inscrever-se</button>
+                </div>
+
+                <div class="interaction-buttons">
+                    <div class="like-group">
+                        <button class="btn-action"><i class="fa-solid fa-thumbs-up"></i> 12 mil</button>
+                        <button class="btn-action border-left"><i class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                    <button class="btn-action"><i class="fa-solid fa-share"></i> Compartilhar</button>
+                    <button class="btn-action"><i class="fa-solid fa-download"></i> Download</button>
+                    <button class="btn-action dot-btn"><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+            </div>
+
+            <!-- comentários -->
+            <div class="comments-section">
+                <div class="comments-header">
+                    <h3>248 Comentários</h3>
+                    <button class="sort-comments"><i class="fa-solid fa-arrow-down-short-wide"></i> Ordenar por</button>
+                </div>
+
+                <!-- comentar -->
+                <div class="add-comment">
+                    <div class="user-avatar-comment">H</div>
+                    <input type="text" placeholder="Adicione um comentário...">
+                </div>
+
+                <!-- comentário 1 -->
+                <div class="comment-item">
+                    <div class="comment-avatar" style="background-color: #264de4;">M</div>
+                    <div class="comment-content">
+                        <div class="comment-author">
+                            <span>João da Silva</span>
+                            <span class="comment-time">há 2 dias</span>
+                        </div>
+                        <p class="comment-text">Excelente aula! Explicação muito clara sobre a diferença entre CSS inline e externo. Me ajudou demais no projeto da faculdade.</p>
+                        <div class="comment-actions">
+                            <button><i class="fa-solid fa-thumbs-up"></i> 45</button>
+                            <button><i class="fa-solid fa-thumbs-down"></i></button>
+                            <span>Responder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comentário 2 -->
+                <div class="comment-item">
+                    <div class="comment-avatar" style="background-color: #e44d26;">A</div>
+                    <div class="comment-content">
+                        <div class="comment-author">
+                            <span>Maria José Dev</span>
+                            <span class="comment-time">há 5 dias</span>
+                        </div>
+                        <p class="comment-text">Finalmente entendi a lógica por trás da estilização! Professor nota 10, aguardando ansiosa pela Aula 02 sobre seletores.</p>
+                        <div class="comment-actions">
+                            <button><i class="fa-solid fa-thumbs-up"></i> 18</button>
+                            <button><i class="fa-solid fa-thumbs-down"></i></button>
+                            <span>Responder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- coluna direita -->
+        <div class="secondary-column">
+            
+            <!--  -->
+            <div class="watch-tags">
+                <button class="tag-chip active">Todos</button>
+                <button class="tag-chip">Da mesma série</button>
+                <button class="tag-chip">De Programação Web</button>
+            </div>
+
+            <!-- Lista de Miniaturas -->
+            <div class="recommendations-list">
+                
+                <!-- Recomendação 1 -->
+                <div class="side-card">
+                    <div class="side-thumbnail thumb-style-1">
+                        <span class="thumb-label">CSS - Introdução</span>
+                        <span class="duration-badge">7:33</span>
+                    </div>
+                    <div class="side-info">
+                        <h4>Curso CSS Completo: Aula 02 - CSS Interno incorporado na página</h4>
+                        <span class="side-channel">Programação Web <i class="fa-solid fa-circle-check"></i></span>
+                        <span class="side-views">91 mil visualizações • há 4 anos</span>
+                    </div>
+                </div>
+
+                <!-- Recomendação 2 -->
+                <div class="side-card">
+                    <div class="side-thumbnail thumb-style-2">
+                        <span class="thumb-label">Primeiros Passos</span>
+                        <span class="duration-badge">14:10</span>
+                    </div>
+                    <div class="side-info">
+                        <h4>Curso CSS Completo: Aula 03 - Primeiros Passos com Seletores</h4>
+                        <span class="side-channel">Programação Web <i class="fa-solid fa-circle-check"></i></span>
+                        <span class="side-views">64 mil visualizações • há 3 anos</span>
+                    </div>
+                </div>
+
+                <!-- Recomendação 3 -->
+                <div class="side-card">
+                    <div class="side-thumbnail thumb-style-3">
+                        <span class="thumb-label">Seletores e Cores</span>
+                        <span class="duration-badge">18:25</span>
+                    </div>
+                    <div class="side-info">
+                        <h4>Curso CSS Completo: Aula 04 - Dominando Cores e Classes</h4>
+                        <span class="side-channel">Programação Web <i class="fa-solid fa-circle-check"></i></span>
+                        <span class="side-views">42 mil visualizações • há 3 anos</span>
+                    </div>
+                </div>
+
+                <!-- Recomendação 4 -->
+                <div class="side-card">
+                    <div class="side-thumbnail thumb-style-4">
+                        <span class="thumb-label">Flexbox Prático</span>
+                        <span class="duration-badge">25:00</span>
+                    </div>
+                    <div class="side-info">
+                        <h4>Curso CSS Completo: Aula 05 - Layouts Modernos com Flexbox</h4>
+                        <span class="side-channel">Programação Web <i class="fa-solid fa-circle-check"></i></span>
+                        <span class="side-views">115 mil visualizações • há 2 anos</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
