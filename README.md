@@ -1,5 +1,4 @@
-# Desafio Clonar pagina do YouTube com CSS.
-# Clone do YouTube - Página de Reprodução (Watch) 📺 
+# Desafio Clone do YouTube - Página de Reprodução (Watch) 📺 
 
 Este é o projeto prático do módulo de CSS, desenvolvido como parte dos desafios da **DIO** (Digital Innovation One). Para o curso **"Formação CSS Web Developer"**.
 
